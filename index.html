@@ -418,7 +418,7 @@
 
       <!-- Clients Logos -->
 
-      <div class="tp-case-area case-grident-bg pt-20 pb-40 fix">
+      <!-- <div class="tp-case-area case-grident-bg pt-20 pb-40 fix">
          <div class="container-fluid">
             <div class="row g-0 justify-content-center">
                <div class="col-xl-6">
@@ -468,7 +468,60 @@
                <div class="single-logo"><img alt="" src="assets/img/brand/bea-min.png"></div>
             </div>
          </div>
-      </div>
+      </div> -->
+
+      <!-- Another logo slider -->
+      <div class="tp-case-area case-grident-bg pt-30 fix"
+      style="background-image: url('assets/img/cta/case-grident-shape.jpg'); height:100%; width:100%;">
+      <!-- <div class="container-fluid"> -->
+         <!-- <div class="row g-0 justify-content-center"> -->
+            <!-- <div class="col-xl-6"> -->
+               <div class="tp-case-title-box text-center wow tpfadeUp" data-wow-duration=".7s"
+                  data-wow-delay=".5s">
+                  <h3 class="tp-section-subtitle">Our Clients</h3>
+                  <h3 class="tp-section-title-sm">Over 60+ Businesses <br>Growing With Us</h3>
+                  <div class="brand-carousel section-padding owl-carousel">
+
+                     <div class="single-logo"><img alt="" src="assets/img/brand/acacia-min.png"></div>
+      
+      
+      
+                     <div class="single-logo"><img alt="" src="assets/img/brand/yaki-min.png"></div>
+      
+      
+      
+                     <div class="single-logo"><img alt="" src="assets/img/brand/copitas-min.png"></div>
+      
+                     <div class="single-logo"><img alt="" src="assets/img/brand/shambala-min.png"></div>
+      
+                     <div class="single-logo"><img alt="" src="assets/img/brand/nat-min.png"></div>
+      
+                     <div class="single-logo"><img alt="" src="assets/img/brand/brand-8-min.png"></div>
+      
+                     <div class="single-logo"><img alt="" src="assets/img/brand/loreal-min.png"></div>
+      
+                     <div class="single-logo"><img alt="" src="assets/img/brand/boat-min.png"></div>
+      
+                     <div class="single-logo"><img alt="" src="assets/img/brand/cadilac-min.png"></div>
+      
+      
+                     <div class="single-logo"><img alt="" src="assets/img/brand/novu-min.png"></div>
+      
+                     <div class="single-logo"><img alt="" src="assets/img/brand/sayaji-min.png"></div>
+      
+                     <div class="single-logo"><img alt="" src="assets/img/brand/ganga-min.png"></div>
+      
+      
+      
+      
+                     <div class="single-logo"><img alt="" src="assets/img/brand/galaxy-min.png"></div>
+                     <div class="single-logo"><img alt="" src="assets/img/brand/bea-min.png"></div>
+                  </div>
+               </div>
+                     
+                 
+           
+      
 
       <!-- <div class="gray-curved-bg">
          
@@ -580,7 +633,7 @@
 
 
       <!-- tp-service-area-start -->
-      <div class="tp-testimonial-area tp-testimonial-space p-relative testimonial-border-shape"
+      <!-- <div class="tp-testimonial-area tp-testimonial-space p-relative testimonial-border-shape"
          data-background="assets/img/testimonial/testi-border-shape.png">
          <div class="container">
             <div class="row">
@@ -694,8 +747,32 @@
                </div>
             </div>
          </div>
-      </div>
+      </div> -->
 
+      <!-- another testimonials -->
+      <div class="tp-case-area case-grident-bg pt-30 pb-20 fix"
+      style="background-image: url('assets/img/cta/case-grident-shape.jpg'); height:100%; width:100%;">
+      <div class="container-fluid">
+         <div class="row g-0 justify-content-center">
+            <div class="col-xl-6">
+               <div class="tp-case-title-box mb-60 text-center wow tpfadeUp" data-wow-duration=".7s"
+                  data-wow-delay=".5s">
+                  <h3 class="tp-section-subtitle">Our Reviews</h3>
+                  <h3 class="tp-section-title-sm">We don't say we are great <br> Our Clients Do</h3>
+               </div>
+            </div>
+         </div>
+         <div id="craouselContainer" class="swiper-container">
+            <div class="swiper-wrapper" id="slideHolder">
+                <!-- Slides -->
+    
+            </div>
+            <div class="swiper-pagination"></div>
+            
+        </div>  
+      </div>
+   </div>
+      
       <!-- counter -->
 
       <div class="tp-counter-area pb-10">
@@ -1308,17 +1385,71 @@
 
 </script>
 <script>
-   var preloadTime;
+   var testiomnialData = [
+    {
+        avatar: "https://img.freepik.com/free-photo/woman-with-long-hair-yellow-hoodie-with-word-music-it_1340-39068.jpg",
+        name: "Simonette Lindermann",
+        review: "Mind-blowing discovery! changed my routine. Essential for everyone. A vise advice to all interested. Can't imagine without it!"
+    },
+    {
+        avatar: "https://img.freepik.com/free-photo/close-up-portrait-young-bearded-man-white-shirt-jacket-posing-camera-with-broad-smile-isolated-gray_171337-629.jpg",
+        name: "Merilee Beal",
+        review: "Unbelievable gem! Altered my life. A must-have now. Wholeheartedly advise it to everyone. An absolute game-changer"
+    },
+    {
+        avatar: "https://img.freepik.com/free-photo/handsome-african-guy-with-stylish-haircut-taking-photo-digital-camera_171337-1345.jpg",
+        name: "Suzi Lankester",
+        review: "Phenomenal addition! Completely transformed my days. Can't go without it. Strongly endorse for all. A game-changer for sure!"
+    },
+    {
+        avatar: "https://img.freepik.com/free-photo/pretty-smiling-joyfully-female-with-fair-hair-dressed-casually-looking-with-satisfaction_176420-15187.jpg",
+        name: "Gaston Cunnow",
+        review: "Amazing product! It changed my life. Can't live without it now. Highly recommended to everyone!"
+    },
+    {
+        avatar: "https://img.freepik.com/free-photo/portrait-white-man-isolated_53876-40306.jpg",
+        name: "Marys Lobb",
+        review: "Life-altering find! Indispensable now. Enthusiastically suggest to all. A game-changer for everyone!"
+    },
+    {
+        avatar: "https://img.freepik.com/free-photo/portrait-white-man-isolated_53876-40306.jpg",
+        name: "Marys Lobb",
+        review: "Life-altering find! Indispensable now. Enthusiastically suggest to all. A game-changer for everyone!"
+    }, {
+        avatar: "https://img.freepik.com/free-photo/portrait-white-man-isolated_53876-40306.jpg",
+        name: "Marys Lobb",
+        review: "Life-altering find! Indispensable now. Enthusiastically suggest to all. A game-changer for everyone!"
+    }]
+var slideHolder = document.querySelector("#slideHolder")
+for (let i of testiomnialData) slideHolder.innerHTML += `<div class="swiper-slide"> <div class="ImgHolder"><img src="${i.avatar}"></div><div class="ContentHolder"><h3>${i.name}</h3><p>${i.review}</p></div></div>`
 
-function preloader() {
-  preloadTime = setTimeout(showPage, 5000);
-}
-
-function showPage() {
-  document.getElementById("preloader").style.display = "none";
+const swiper = new Swiper('#craouselContainer', {
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: 2.3,
+    loop: true,
+    spaceBetween: 30,
+    effect: "coverflow",
+    coverflowEffect: {
+        rotate: 0,
+        depth: 800,
+        slideShadows: true,
+    },
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true
+    },
+    autoplay: { delay: 5000 }
+});
+window.onresize = queryResizer
+queryResizer()
+function queryResizer() {
+    if (window.innerWidth < 724) swiper.params.slidesPerView = 2
+    if (window.innerWidth > 501) swiper.params.slidesPerView = 2
+    if (window.innerWidth > 724) swiper.params.slidesPerView = 2.3
+    if (window.innerWidth < 501) swiper.params.slidesPerView = 1
+    swiper.update()
 }
 </script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDts9C9iWNF83ExezBXJLIJ0g2dwoERg08&callback=initMap" async
-   defer></script>
 
 </html>
